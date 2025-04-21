@@ -1,0 +1,145 @@
+.contact {
+  background-color: #000;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contact-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact-icon {
+  font-size: 2.5rem !important;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.contact-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--primary);
+}
+
+.contact-item p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.social-section {
+  flex: 1;
+  margin-top: 2rem;
+  color:white;
+}
+
+@media (min-width: 768px) {
+  .social-section {
+    margin-top: 0;
+    padding-left: 3rem;
+    border-left: 1px solid var(--gray-light);
+    color:white;
+  }
+}
+
+.social-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(---color);
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.social-link:hover {
+  color: var(--primary);
+  background-color: rgba(58, 134, 255, 0.1);
+  transform: translateX(5px);
+}
+
+.social-icon {
+  font-size: 2rem !important;
+}
+
+.social-link span {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .contact-icon {
+    font-size: 2rem !important;
+  }
+  
+  .social-icon {
+    font-size: 1.8rem !important;
+  }
+  
+  .contact-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .contact-item p {
+    font-size: 1rem;
+  }
+  
+  .social-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+.telegram-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #0088cc; /* Telegram's brand color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.telegram-button:hover {
+  background: #0077b5;
+}
+
+.telegram-icon {
+  font-size: 20px;
+}
