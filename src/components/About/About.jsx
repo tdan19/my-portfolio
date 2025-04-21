@@ -45,22 +45,20 @@ const About = () => {
                 <h4><DesignServices className="category-icon" /> Frontend</h4>
                 <div className="skills-list">
                   <div className="skill-item">
-                    <div className="skill-name">React.js</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '90%'}}></div>
+                    <div className="skill-name"> <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" width="40" /> </div>
+                    
                     </div>
                   </div>
                   <div className="skill-item">
-                    <div className="skill-name">JavaScript</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '85%'}}></div>
+                    <div className="skill-name"><img src="https://cdn.simpleicons.org/javascript/61DAFB" alt="React" width="40" />
                     </div>
+                   
                   </div>
                   <div className="skill-item">
-                    <div className="skill-name">HTML/CSS</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '95%'}}></div>
+                    <div className="skill-name"><img src="https://cdn.simpleicons.org/html5/61DAFB" alt="React" width="40" /> <img src="https://cdn.simpleicons.org/css/61DAFB" alt="React" width="40" />
+
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -69,47 +67,26 @@ const About = () => {
                 <h4><Storage className="category-icon" /> Backend</h4>
                 <div className="skills-list">
                   <div className="skill-item">
-                    <div className="skill-name">Node.js</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '80%'}}></div>
+                    <div className="skill-name"><img src="https://cdn.simpleicons.org/node.js/61DAFB" alt="node.js" width="40" />
                     </div>
+                    
                   </div>
                   <div className="skill-item">
-                    <div className="skill-name">Express</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '75%'}}></div>
+                    <div className="skill-name"><img src="https://cdn.simpleicons.org/express/61DAFB" alt="express" width="40" />
                     </div>
+                   
                   </div>
                   <div className="skill-item">
-                    <div className="skill-name">MongoDB</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '70%'}}></div>
+                    <div className="skill-name"><img src="https://cdn.simpleicons.org/mongodb/61DAFB" alt="mongodb" width="40" />
                     </div>
+                    
+                  </div>
+                </div>
+              </div>   
                   </div>
                 </div>
               </div>
-              
-              <div className="skill-category">
-                <h4><PhoneAndroid className="category-icon" /> Mobile</h4>
-                <div className="skills-list">
-                  <div className="skill-item">
-                    <div className="skill-name">React Native</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '65%'}}></div>
-                    </div>
-                  </div>
-                  <div className="skill-item">
-                    <div className="skill-name">Flutter</div>
-                    <div className="skill-bar">
-                      <div className="skill-level" style={{width: '60%'}}></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            
     </section>
   );
 };

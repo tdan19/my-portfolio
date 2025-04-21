@@ -6,20 +6,20 @@ const projects = [
   {
     id: 1,
     title: 'Netflix Clone',
-    description: 'Browse Movies/TV Shows - Fetches trending, top-rated, and genre-specific content from TMDB API',
+    description: 'Movies/TV Shows -Fetches trending, top-rated, from TMDB API',
     technologies: [' React.js', 'Redux', 'TailwindCSS','API'],
     githubLink: 'https://github.com/tdan19/Netflix-Clone',
     image: 'https://github.com/tdan19/Netflix-Clone/blob/master/src/Assets/Screenshot%202025-04-21%20154900.png?raw=true'
   },
 
-// {
-  //   id: 2,
-  //   title: 'Project 2',
-  //   description: 'An e-commerce platform with payment integration',
-  //   technologies: ['React', 'Redux', 'Stripe'],
-  //   githubLink: 'https://github.com/yourusername/project2',
-  //   image: 'https://via.placeholder.com/800x400'
-  // },
+{
+    id: 2,
+    title: 'APPLE-CLONE',
+    description: 'It s a front-end practice project that replicates the look and feel of the official Apple homepage',
+    technologies: ['HTML5', 'CSS3'],
+    githubLink: 'https://github.com/tdan19/apple-clone',
+    image: 'https://github.com/tdan19/apple-clone/blob/main/images/Screenshot%202025-04-21%20220128.png?raw=true'
+  },
   // {
   //   id: 3,
   //   title: 'Project 3',

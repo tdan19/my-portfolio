@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Home.css';
-import profileImage from '../../assets/profile.jpg';
+// import profileImage from '../../assets/profile.jpg';
 import { motion } from 'framer-motion';
 import { Code, School, DesignServices } from '@mui/icons-material';
 
@@ -28,7 +28,7 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="welcome-title">
-            Hi 🤚, I'm <span style={{ color: currentColor }}> Daniel</span>
+            Hi,<span style={{ color: currentColor }}>  🤚 I'm  Daniel</span>
           </h1>
           <motion.p 
             className="welcome-text"
@@ -39,20 +39,6 @@ const Home = () => {
             Software Engineering Student & Full-Stack Developer
           </motion.p>
         </motion.div>
-        
-        <div className="profile-section">
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ type: 'spring', stiffness: 100 }}
-          >
-            <img 
-              src={profileImage} 
-              alt="Profile" 
-              className="profile-image"
-            />
-          </motion.div>
-        </div>
         
         <div className="quick-info">
           <motion.div 
