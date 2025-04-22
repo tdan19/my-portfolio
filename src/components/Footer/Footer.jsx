@@ -9,9 +9,6 @@ const Footer = () => {
           <p className="footer-text">
             © {new Date().getFullYear()} daniel. All rights reserved.
           </p>
-          <p className="footer-message">
-            Made with ❤️ by Daniel
-          </p>
         </div>
       </div>
     </footer>
