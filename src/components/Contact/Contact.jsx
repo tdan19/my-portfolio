@@ -60,11 +60,11 @@ const Contact = () => {
             <h3 className="social-title">Connect With Me</h3>
             <div className="social-links">
             
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/tdan19" target="_blank" rel="noopener noreferrer" className="social-link">
                 <GitHub className="social-icon" />
                 <span>GitHub</span>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://www.linkedin.com/in/daniel-damtew-056878352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="social-link">
                 <LinkedIn className="social-icon" />
                 <span>LinkedIn</span>
               </a>
@@ -72,11 +72,11 @@ const Contact = () => {
                 <Twitter className="social-icon" />
                 <span>Twitter</span>
               </a>
-              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://instagram.com/dani.da24" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Instagram className="social-icon" />
                 <span>Instagram</span>
               </a>
-              <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://www.facebook.com/profile.php?id=61556760106560" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Facebook className="social-icon" />
                 <span>Facebook</span>
               </a>

@@ -28,7 +28,7 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="welcome-title">
-            Hi,<span style={{ color: currentColor }}>  🤚 I'm  Daniel</span>
+            Hi there,<span style={{ color: currentColor }}> I'm  Daniel</span>
           </h1>
           <motion.p 
             className="welcome-text"
@@ -46,7 +46,7 @@ const Home = () => {
             whileHover={{ scale: 1.05 }}
           >
             <Code className="info-icon" />
-            <h3>2+ Years</h3>
+            <h3>1+ Years</h3>
             <p>Development Experience</p>
           </motion.div>
           
